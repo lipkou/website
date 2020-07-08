@@ -18,6 +18,14 @@ body {
 
 }
 
+.Puppy-parade {
+
+  text-align: center;
+
+  font-size: 5px;
+
+}
+
 .main-heading {
 
   font-size: 70px;
@@ -131,12 +139,14 @@ body {
 
   color: #c967a0;
 
-  font: 25px;
+  font-size: 23px;
 }
 
 .Cakes-list {
 
   color: #4da36e;
+
+  font-size: 20px;
 }
 
 /* end footer styling */
