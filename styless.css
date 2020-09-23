@@ -1,3 +1,4 @@
+@@ -0,0 +1,121 @@
 * {
   box-sizing: border-box;
 }
@@ -18,6 +19,7 @@ a {
   text-align: center;
   padding: 10px;
   font-weight: 600;
+
 }
 
 .menu {
@@ -118,4 +120,3 @@ footer {
 h3 {
   color: #E67300;
 }
-//почему мне так плохо?//
