@@ -1,152 +1,120 @@
-body {
-
-  margin: 0; /* eliminates margin spacing on body so that the footer color is able to fill the window */
-
-  /* Sets the background for the entire page to a light yellow color */
-
-  background-color: #FAF8DA;
-
-  font-family: 'Open Sans', sans-serif; /* Font from Google Fonts */
-
+* {
+  box-sizing: border-box;
 }
 
-/* begin header styling */
-
-.primary-header {
-
-  text-align: center; /* This will center the main heading and the main image */
-
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'ROBOTO', sans-serif;
 }
 
-.Puppy-parade {
-
+a {
+  text-decoration: none;
+  color: #0499ff;
+}
+.nav {
+  min-height: 45px;
+  background-color: #000;
   text-align: center;
-
-  font-size: 5px;
-
+  padding: 10px;
+  font-weight: 600;
 }
 
-.main-heading {
-
-  font-size: 70px;
-
-  color: #205D76;
-
+.menu {
+  display: flex;
+  flex-flow: row;
+  color: #fff;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-around;
 }
 
-.secret-heading {
-
-  font-size: 30px;
-
-  color: #e8edea
+.menu li {
+  padding: 13px;
 }
 
-.town-preview {
-
-  width: 650px;
-
+.name {
+  display: block;
+  margin-right: auto;
 }
 
-/* end header styling */
-
-/* begin main styling */
-
-.store-section {
-
-  display: flex; /* Makes the content witin this element flexible */
-
-  display: -webkit-flex; /* vendor prefix */
-
-  margin: 50px auto; /* Adds spacing at top of all sections and then centers them */
-
-  width: 450px; /* approximate width of each section */
-
-}
-
-.building {
-
-  width: 200px;
-
-}
-
-.store-details { /* This is the div that contains the text */
-
-  margin-left: 30px;
-
-}
-
-.category-heading {
-
-  color: #205D76;
-
-  font-size: 30px;
-
-}
-
-.store-list {
-
-  padding-left: 15px;
-
-  color: #FFC122; /* this will make sure the bullet points turn dark yellow! */
-
-}
-
-.store-name {
-
-  margin-bottom: 10px; /* adds a bit of space at the bottom of each list item */
-
-}
-
-.store-link {
-
-  color: #EA6E2F;
-
-  font-size: 20px;
-
-}
-
-/* end main styling */
-
-/* begin footer styling */
-
-.primary-footer {
-
-  padding: 2px;
-
-  background-color: #FFC122;
-
+header {
+  padding-top: 40px;
+  width: 100%;
+  height: 500px;
+  background-image: url('https://i.pinimg.com/originals/f0/e4/0e/f0e40eecb15886c55636cdcdd50924c1.jpg');
+  background-size: cover;
   text-align: center;
-
 }
 
-.created-by {
-
-  color: #FFFFFF;
-
-  font-size: 20px;
-
+header img {
+  border-radius: 50%;
+  border: 2px solid #000;
+  transition: all .5s;
 }
 
-.Cookie-menu {
-
-  color: #ab621f;
-
-  font-size: 25px;
-
+header img:hover {
+  transform: scale(1.09) rotate(4deg);
 }
 
-.Cakes-menu {
-
-  color: #c967a0;
-
-  font-size: 23px;
+.tag {
+  background-color: #EDE01C;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #000;
 }
 
-.Cakes-list {
-
-  color: #4da36e;
-
-  font-size: 20px;
+.tag sub-title {
+  background-color: #252B2B;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-/* end footer styling */
+.sub-title {
+  background-color: #000;
+  color: #E3890E;
+}
+.content {
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.card {
+  width: 500px;
+  margin: 10px;
+  padding: 20px;
+
+  border-bottom: 3px solid grey;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 60px;
+}
+
+.tag-list {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  color: #000;
+}
+
+.tag-yellow {
+  background-color: #EDE01C;
+}
+
+.tag-blue {
+  background-color: #11A3D5;
+}
+
+h3 {
+  color: #E67300;
+}
