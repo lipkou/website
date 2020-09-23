@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'ROBOTO', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0499ff;
+}
+.nav {
+  min-height: 45px;
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row;
+  color: #fff;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: space-around;
+}
+
+.menu li {
+  padding: 13px;
+}
+
+.name {
+  display: block;
+  margin-right: auto;
+}
+
+header {
+  padding-top: 40px;
+  width: 100%;
+  height: 500px;
+  background-image: url('https://i.pinimg.com/originals/f0/e4/0e/f0e40eecb15886c55636cdcdd50924c1.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+header img {
+  border-radius: 50%;
+  border: 2px solid #000;
+  transition: all .5s;
+}
+
+header img:hover {
+  transform: scale(1.09) rotate(4deg);
+}
+
+.tag {
+  background-color: #EDE01C;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+.tag sub-title {
+  background-color: #252B2B;
+  display: table;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sub-title {
+  background-color: #000;
+  color: #E3890E;
+}
+.content {
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.card {
+  width: 500px;
+  margin: 10px;
+  padding: 20px;
+
+  border-bottom: 3px solid grey;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 60px;
+}
+
+.tag-list {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+  color: #000;
+}
+
+.tag-yellow {
+  background-color: #EDE01C;
+}
+
+.tag-blue {
+  background-color: #11A3D5;
+}
+
+h3 {
+  color: #E67300;
+}
+//почему мне так плохо?//
